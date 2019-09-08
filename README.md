@@ -22,3 +22,38 @@ npm start
 # yarn
 yarn start
 ```
+
+# メモ
+
+## React
+
+### React Hooks
+
+`React Hooks`は、`React.FC`内で状態管理ができる仕組み。
+
+- [フックの導入](https://ja.reactjs.org/docs/hooks-intro.html)
+- [フックAPIリファレンス（APIの一覧）](https://ja.reactjs.org/docs/hooks-reference.html)
+- [ステートフックの利用法](https://ja.reactjs.org/docs/hooks-state.html)
+
+#### useState
+
+いわゆるカウンター。
+
+**実装イメージ**
+
+```javascript
+import * as React from 'react'
+
+const Button: React.FC = () => {
+  const [count, setCount] = React.useState(0)
+  return <div>
+    <button onClick={() => {
+      setCount(count+1)
+    }}>
+      Click Count: {count}
+    </button>
+  </div>
+}
+
+export default Button
+```

@@ -3,6 +3,7 @@ import logo from './logo.svg'
 import './App.css'
 import Table from './components/index'
 import ChildrenTest from './components/chidren-test/index'
+import StateButton from './components/hooks/state-button'
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const App: React.FC = () => {
       </header>
       <Table></Table>
       <ChildrenTest></ChildrenTest>
+      <StateButton></StateButton>
     </div>
   )
 }
