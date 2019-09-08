@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
 import Table from './components/index'
 
 const App: React.FC = () => {
@@ -22,7 +22,7 @@ const App: React.FC = () => {
       </header>
       <Table></Table>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
