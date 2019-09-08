@@ -4,6 +4,11 @@ export type Row = {
   answers: number[]
 }
 
+export type Props = {
+  childLabel: string
+  childValue: number
+}
+
 export type Rows = Row[]
 
 export const rows: Rows = [
@@ -19,4 +24,7 @@ export const rows: Rows = [
   }
 ]
 
-
+export const propsMock: Props = {
+  childLabel: 'test',
+  childValue: 1
+}

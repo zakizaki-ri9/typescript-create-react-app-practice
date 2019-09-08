@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import Table from './components/index'
+import ChildrenTest from './components/chidren-test/index'
 
 const App: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const App: React.FC = () => {
         </a>
       </header>
       <Table></Table>
+      <ChildrenTest></ChildrenTest>
     </div>
   )
 }
