@@ -23,6 +23,14 @@ npm start
 yarn start
 ```
 
+# コミット
+
+```bash
+# git cz -> lint-stagedによるeslint自動修正
+# TODO: commitlintによって、git commitによるコミットを防ぐ
+yarn commit
+```
+
 # メモ
 
 ## React
