@@ -4,6 +4,7 @@ import './App.css'
 import Table from './components/index'
 import ChildrenTest from './components/chidren-test/index'
 import StateButton from './components/hooks/state-button'
+import MemoButton from './components/hooks/memo-button'
 
 const App: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const App: React.FC = () => {
       <Table></Table>
       <ChildrenTest></ChildrenTest>
       <StateButton></StateButton>
+      <MemoButton></MemoButton>
     </div>
   )
 }
