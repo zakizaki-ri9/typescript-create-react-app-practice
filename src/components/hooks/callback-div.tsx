@@ -28,11 +28,10 @@ const Container: React.FC = () => {
     (event: React.MouseEvent<HTMLElement, MouseEvent>) => {
       event.persist()
       const {top, left} = event.currentTarget.getBoundingClientRect()
-      update(prev => ({
-        ...prev,
+      update({
         clickedX: event.clientX - left,
         clickedY: event.clientY - top
-      }))
+      })
     },
     []
   )
