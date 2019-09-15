@@ -6,6 +6,7 @@ import ChildrenTest from './components/chidren-test/index'
 import StateButton from './components/hooks/state-button'
 import MemoButton from './components/hooks/memo-button'
 import CallbackDiv from './components/hooks/callback-div'
+import EffectComponent from './components/hooks/effect-component'
 
 const App: React.FC = () => {
   return (
@@ -29,6 +30,7 @@ const App: React.FC = () => {
       <StateButton></StateButton>
       <MemoButton></MemoButton>
       <CallbackDiv></CallbackDiv>
+      <EffectComponent></EffectComponent>
     </div>
   )
 }
